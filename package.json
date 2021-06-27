@@ -3,18 +3,21 @@
   "version": "1.0.0",
   "description": "Simple automation with cypress using POM and Custom Commands.\r Automate account creation and login on site http://automationpractice.com.\r Integration tests in UI.",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "cy:open": "cypress open",
-    "cy:run":"cypress run"
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gabrielcieslak/cypresswithoutcucumber.git"
-  },  
+  },
   "author": "Gabriel Cieslak",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gabrielcieslak/cypresswithoutcucumber/issues"
   },
-  "homepage": "https://github.com/gabrielcieslak/cypresswithoutcucumber#readme"
+  "homepage": "https://github.com/gabrielcieslak/cypresswithoutcucumber#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
 }
