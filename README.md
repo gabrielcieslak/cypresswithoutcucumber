@@ -3,7 +3,7 @@
 
 Simple automation with cypress using POM and Custom Commands.
 Automate account creation and login on site http://automationpractice.com.
-whitout validations, just POM and custom Commands using example
+whitout any validations, just POM and custom Commands using example
 
 
 
